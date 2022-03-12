@@ -1,7 +1,20 @@
-# Vue 3 + Vite
+# MdToHTML
+markdownからHTMLを作成してHTMLとして取得できるウェブアプリです。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+# 使い方
+左側のテキストエリアにmarkdownを入力します。
+右上にあるクリップボードボタンから作成したmarkdownのHTMLをコピーします。
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+# 完成例
+完成したHTMLは次のような形で書き出されます。
+```html
+<!--HTML-->
+<div id="article">
+  <!--html-->
+</div>
+<!--CSS-->
+<style>
+  <!--css-->
+</style>
+```
+なお、作成したHTMLはデフォルトがダークモードとなっております。(主に時間ができたらライトモードもつくります)
